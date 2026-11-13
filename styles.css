@@ -67,8 +67,12 @@ nav a:hover {
 }
 
 .overview-hero-image img {
-	width: 100%
-	height: auto;
+	display: block;
+	width: 5o
+00px;
+	height: 300px;
+	object-fit: contain;
+	margin: auto;
 }
 
 .overview-hero-text {
@@ -112,7 +116,9 @@ nav a:hover {
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 280px;
+    object-fit: cover;
+    display: block;
 }
 
 .card-body {
